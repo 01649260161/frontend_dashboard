@@ -156,8 +156,13 @@ html, body{
 .col-md-12.col-lg-5.col-md-12.col-lg-5-custom{
   padding: 0;
 }
+.col-md-12.col-lg-5.col-md-12.col-lg-5-custom .tab-content{
+  position: relative;
+}
 
-
+.col-md-12.col-lg-5.col-md-12.col-lg-5-custom .alert{
+  font-size: 15px;
+}
 
 .page-header.row.justify-center.header-custom>.btn-save-or-default>ul{
   margin: 0;
@@ -637,7 +642,12 @@ html, body{
   z-index: 1;
   top: 25%;
 }
-
+.col-md-12.col-lg-5.col-md-12.col-lg-5-custom .content-div-form-interface .content-form-interface-full .item-value .btn-btn-select-radio-form input[type="radio"]{
+  display: none;
+}
+.custom-control-label.custom-control-description{
+  cursor: pointer;
+}
 
 
 .checkbox.customforminterface2 input{
@@ -745,6 +755,37 @@ padding: 25px;
   border: thin solid #eee;
 }
 
+.modal-dialog-full-width {
+  margin: 0 auto !important;
+  width: 80% !important;
+  height: 100% !important;
+  padding: 0 !important;
+  max-width:none !important;
+
+}
+
+.modal-content-full-width  {
+  height: auto !important;
+  min-height: 100% !important;
+  border-radius: 0 !important;
+  background-color: #ececec !important 
+}
+
+.modal-header-full-width  {
+  border-bottom: 1px solid #9ea2a2 !important;
+}
+
+.modal-footer-full-width  {
+  border-top: 1px solid #9ea2a2 !important;
+}
+
+.btn-btn-add-image{
+  position: absolute;
+  z-index: 1;
+  right: 47%;
+  top: 40%;
+  font-size: 25px;
+}
 
 
 @media (min-width: 768px){

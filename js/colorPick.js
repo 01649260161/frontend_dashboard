@@ -45,7 +45,7 @@
 
     $.fn.colorPick.defaults = {
         'initialColor': '#3498db',
-        'paletteLabel': 'Default palette:',
+        'paletteLabel': 'Màu mặc định:',
         'allowRecent': true,
         'recentMax': 5,
         'allowCustomColor': false,
@@ -139,7 +139,7 @@
                 $("#colorPick").append('<input type="text" style="margin-top:5px" class="customColorHash" />');
             }
 			if ($.fn.colorPick.defaults.allowRecent === true) {
-				$("#colorPick").append('<span style="margin-top:5px">Recent:</span>');
+				$("#colorPick").append('<span style="margin-top:5px">Gần đây:</span>');
 				if (JSON.parse(localStorage.getItem("colorPickRecentItems")) == null || JSON.parse(localStorage.getItem("colorPickRecentItems")) == []) {
 					$("#colorPick").append('<div class="colorPickButton colorPickDummy"></div>');
 				} else {

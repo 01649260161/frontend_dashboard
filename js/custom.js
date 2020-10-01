@@ -1,4 +1,3 @@
-
 $(document).on("click","ul.nav li.parent > a ", function(){          
   $(this).find('i').toggleClass("fa-minus");      
 }); 
@@ -6,6 +5,55 @@ $(".sidebar span.icon").find('em:first').addClass("fa-plus");
 
 // $('#calendar').datepicker({
 //   });
+
+$(document).ready(function() {
+  
+  var count = 3;
+  $(".btn-btn-add-image").click(function() {
+    var s = $("template[class='add-content-gift']").html();
+    s = s.replace(/image10-/g, "image10-" + count);
+      $(".add").append(s);
+      $('.col-md-12.col-lg-5.col-md-12.col-lg-5-custom .content-div').click(function(e) {
+          var items = $('.col-md-12.col-lg-5.col-md-12.col-lg-5-custom .content-div');
+          for (var i = 0; i < items.length; i++) {
+              items[i].classList.remove("mystyle");
+          }
+          $(this).delay(1000).addClass('mystyle');
+      })
+      $(".select-image").change(function(){
+        var file = $(this)[0].files[0];
+        var imageChange = $(this).parent().parent().parent().children('.position-relation-img').children('.image-logo');
+        var urlDownloadChange = $(this).parent().parent().parent().children('ul').children('li:first-child').children('a');
+        var patterImage = new RegExp("image/*");
+        if(!patterImage.test(file.type)) {
+                alert("Please choose image");
+        } else {
+                var fileReader = new FileReader();
+                fileReader.readAsDataURL(file);
+                fileReader.onload = function(e) {
+                  imageChange.attr("src",e.target.result);
+                  urlDownloadChange.attr("href",e.target.result)
+                }
+        }
+      });
+      $('.btn-btn-zoom-img>a').click(function(e){
+        var getSrc = $(this).parent().parent().children('.image-logo').attr('src');
+        $('#exampleModalCenter .modal-body>img').attr('src',getSrc);
+        var arrGetName = getSrc.split("/");
+        var lastName = arrGetName.length - 1;
+        $('#exampleModalCenter .modal-title').html(arrGetName[lastName]);
+      })
+      $(".btn-btn-close-custom").click(function() {
+          var x = $(this).parent().parent().parent().parent().parent();
+          $(x).remove();
+      });
+      count++;
+  });
+});
+$(".btn-btn-close-custom").click(function() {
+  var x = $(this).parent().parent().parent().parent().parent();
+  $(x).remove();
+});
 
 $("#menu-toggle").click(function(e) {
       e.preventDefault();
@@ -15,7 +63,7 @@ $("#menu-toggle").click(function(e) {
 $(".select-image").change(function(){
   var file = $(this)[0].files[0];
   var imageChange = $(this).parent().parent().parent().children('.position-relation-img').children('.image-logo');
-  console.log(imageChange);
+  var urlDownloadChange = $(this).parent().parent().parent().children('ul').children('li:first-child').children('a');
   var patterImage = new RegExp("image/*");
   if(!patterImage.test(file.type)) {
           alert("Please choose image");
@@ -24,7 +72,7 @@ $(".select-image").change(function(){
           fileReader.readAsDataURL(file);
           fileReader.onload = function(e) {
             imageChange.attr("src",e.target.result);
-                  // $(this).parent().parent().parent().children('.image-logo').attr("src",e.target.result);
+            urlDownloadChange.attr("href",e.target.result)
           }
   }
 });
@@ -40,6 +88,11 @@ $(document).ready(function(){
       $(this).children('span').removeClass('fa fa-angle-up');
       $(this).children('span').addClass('fa fa-angle-down');
     }
+  });
+
+  $('.dropdown-select-audio .content-form-interface-full button').click(function(e){
+    var selectAudio = $(this).closest('tr').children('td:first-child').children('label').html();
+    $(this).closest('.content-div-form-interface').parent().children('.label-title-form-interface').html(selectAudio + ' <span class="fa fa-angle-up"></span>');
   });
 
   $('.col-md-12.col-lg-5.col-md-12.col-lg-5-custom .content-div').click(function(e){
@@ -68,7 +121,7 @@ $(document).ready(function(){
     'initialColor' : '#009E0F',
     'palette': ["#1abc9c", "#16a085", "#2ecc71", "#27ae60", "#3498db", "#2980b9", "#9b59b6", "#8e44ad", "#34495e", "#2c3e50", "#f1c40f", "#f39c12", "#e67e22", "#d35400", "#e74c3c", "#c0392b", "#ecf0f1"],
     'onColorSelected': function() {
-      console.log("The user has selected the color: " + this.color);
+      // console.log("The user has selected the color: " + this.color);
       
       $('.two-color')[0].style.backgroundColor = this.color;
       $('.three-color')[0].style.backgroundColor = this.color;
@@ -104,7 +157,7 @@ $(document).ready(function(){
     'initialColor' : '#DADEDF',
     'palette': ["#1abc9c", "#16a085", "#2ecc71", "#27ae60", "#3498db", "#2980b9", "#9b59b6", "#8e44ad", "#34495e", "#2c3e50", "#f1c40f", "#f39c12", "#e67e22", "#d35400", "#e74c3c", "#c0392b", "#ecf0f1"],
     'onColorSelected': function() {
-      console.log("The user has selected the color: " + this.color)
+      // console.log("The user has selected the color: " + this.color)
       $('.two-color')[1].style.backgroundColor = this.color;
       $('.three-color')[2].style.backgroundColor = this.color;
       $('.four-color')[3].style.backgroundColor = this.color;
@@ -141,4 +194,48 @@ $(document).ready(function(){
   $('.saveText').click(function(e){
     $(this).children('i').removeClass('fa fa-check').addClass('fa fa-pencil');
   })
+
+
+
+
+  $(".load-more").on('click', function (event) {
+    event.preventDefault();
+    var html = '<div class="col-md-6 item-value item-add-js"><img src="./images/formInterfacePart.PNG" alt=""><div class="btn-btn-select-radio-form custom-control custom-radio"><input type="radio" id="backgroundGame1" name="customRadio" class="custom-control-input"><label class="custom-control-label custom-control-description" for="backgroundGame1"></label></div></div><div class="col-md-6 item-value item-add-js"><img src="./images/formInterfacePart.PNG" alt=""><div class="btn-btn-select-radio-form custom-control custom-radio"><input type="radio" id="backgroundGame1" name="customRadio" class="custom-control-input"><label class="custom-control-label custom-control-description" for="backgroundGame1"></label></div></div>';
+    let currentProduct = $(this).parent().parent().children('.row.content-form-interface-full');
+    currentProduct.append(html);
+    // let currentProduct = $(this).parent().parent().children('.row.content-form-interface-full');
+    // var params = {};
+    // params.current = 9;
+    // params.type = "product";
+
+    // $.ajax({
+    //     url:"http://brandgame.local/dashboard2/ajax.php",
+    //     data: params,
+    //     type:"POST",
+    //     dataType:"json",
+    //     beforeSend:function () {
+    //     },
+    //     success: function (data) {
+    //         console.log(data.html);
+    //         currentProduct.append(data.html);
+    //     },
+    //     error: function (xhr) {
+    //     },
+    //     complete: function (xhr, status) {
+    //     }
+    // });
+
+});
+  $(".hidden-items").on('click', function (event){
+    event.preventDefault()
+    let currentProduct = $(this).parent().parent().children('.row.content-form-interface-full').children('.item-add-js');
+    currentProduct.remove();
+  })
+
+  $('.fa.fa-remove.remove-recommend').click(function(e){
+    e.preventDefault();
+    console.log('123');
+    $(this).parent().parent().parent().parent().parent().remove();
+  })
+  
 });

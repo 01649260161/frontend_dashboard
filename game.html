@@ -37,18 +37,18 @@
 
 				<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><em class="fa fa-bars"></em></a>
 				<ul class="nav nav-pills flex-column sidebar-nav sidebar-nav-custom-1">
-					<li class="nav-item"><a class="nav-link" href="index.html"><img src="./images/hashtag.svg" alt="">
+					<li class="nav-item"><a class="nav-link" href="game.html"><img src="./images/hashtag.svg" alt="">
 							Chiến dịch <span class="sr-only">(current)</span></a></li>
 					<li class="nav-item"><a class="nav-link active" href="game.html">
-						<img src="./images/video-game.svg" alt=""> Game</a>
+							<img src="./images/video-game.svg" alt=""> Game</a>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="charts.html"><img src="./images/gift.svg" alt="">
+					<li class="nav-item"><a class="nav-link" href="game.html"><img src="./images/gift.svg" alt="">
 							Giải thưởng</a></li>
-					<li class="nav-item"><a class="nav-link" href="buttons.html">
-						<img src="./images/menu.svg" alt=""> Landing page</a>
+					<li class="nav-item"><a class="nav-link" href="game.html">
+							<img src="./images/menu.svg" alt=""> Landing page</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="forms.html"><img src="./images/infographic.svg" alt=""> Báo cáo</a>
+						<a class="nav-link" href="game.html"><img src="./images/infographic.svg" alt=""> Báo cáo</a>
 					</li>
 				</ul>
 				<div class="sidebar-custom-bottom">
@@ -94,10 +94,11 @@
 					<div class="col-md-5 col-lg-7 btn-page">
 						<ul class="nav nav-tabs">
 							<li>
-								<button class="btn btn-success">Xem thử</button>
+								<button class="btn btn-success" data-toggle="modal" data-target="#exampleModalPreview">Xem thử</button>
 							</li>
 							<li class="active">
-								<a href="#formInterface" class="btn btn-success active show" data-toggle="tab">Giao diện mẫu</a>
+								<a href="#formInterface" class="btn btn-success active show" data-toggle="tab">Giao diện
+									mẫu</a>
 							</li>
 							<li>
 								<a href="#customInterface" class="btn btn-success" data-toggle="tab">Tự điều chỉnh</a>
@@ -126,27 +127,35 @@
 										<nav id="column_left">
 											<ul class="nav nav-tabs nav-list level-1">
 												<li>
-													<a class="accordion-heading" data-toggle="collapse"  data-target="#subinterfacemenu1">
-														<span class="nav-header-primary">Nội dung <span class="pull-right"><b
-																	class="caret"></b></span></span>
+													<a class="accordion-heading" data-toggle="collapse"
+														data-target="#subinterfacemenu1">
+														<span class="nav-header-primary">Nội dung <span
+																class="pull-right"><b class="caret"></b></span></span>
 													</a>
-													<ul class="nav nav-list collapse level-2 show" id="subinterfacemenu1">
+													<ul class="nav nav-list collapse level-2 show"
+														id="subinterfacemenu1">
 														<li>
-															<a class="accordion-heading" data-toggle="collapse" 
+															<a class="accordion-heading" data-toggle="collapse"
 																data-target="#subinterfacemenu2">Hình Ảnh <span
 																	class="pull-right"><b class="caret"></b></span></a>
-															<ul class="nav nav-list collapse level-3 show" id="subinterfacemenu2">
-																<li><a href="#formInterface1" title="Title">Hình đại diện</a>
+															<ul class="nav nav-list collapse level-3 show"
+																id="subinterfacemenu2">
+																<li><a href="#formInterface1" title="Title">Hình đại
+																		diện</a>
 																</li>
-																<li><a href="#formInterface2" title="Title">Vòng quay</a>
+																<li><a href="#formInterface2" title="Title">Vòng
+																		quay</a>
 																</li>
-																<li><a href="#formInterface3" title="Title">Giải thưởng</a>
+																<li><a href="#formInterface3" title="Title">Giải
+																		thưởng</a>
 																</li>
-																<li><a href="#formInterface4" title="Title">Chi tiết khác</a>
+																<li><a href="#formInterface4" title="Title">Chi tiết
+																		khác</a>
 																</li>
 																<li><a href="#formInterface5" title="Title">Pop up</a>
 																</li>
-																<li><a href="#formInterface6" title="Title">Background</a>
+																<li><a href="#formInterface6"
+																		title="Title">Background</a>
 																</li>
 															</ul>
 														</li>
@@ -163,7 +172,9 @@
 									</div>
 									<div class="col-md-12 col-lg-5 col-md-12 col-lg-5-custom">
 										<div class="jumbotron" id="formInterface1">
-											<h1 class="mb-4 title-item-config">có rất nhiều mẫu, bạn chỉ cần chọn và dùng luôn!</h1>
+
+											<h1 class="mb-4 title-item-config">có rất nhiều mẫu, bạn chỉ cần chọn và
+												dùng luôn!</h1>
 											<label for="" class="label-title-form-interface">Chọn tiêu chí</label>
 											<div class="content-div-form-interface">
 												<ul class="filter-form-interface">
@@ -200,347 +211,508 @@
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfaceFull.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="formInterfaceFull1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="formInterfaceFull1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="formInterfaceFull1"
+																name="customRadio" class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="formInterfaceFull1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfaceFull.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="formInterfaceFull2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="formInterfaceFull2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="formInterfaceFull2"
+																name="customRadio" class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="formInterfaceFull2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfaceFull.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="formInterfaceFull3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="formInterfaceFull3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="formInterfaceFull3"
+																name="customRadio" class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="formInterfaceFull3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfaceFull.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="formInterfaceFull4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="formInterfaceFull4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="formInterfaceFull4"
+																name="customRadio" class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="formInterfaceFull4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
+													<a href="#"  style="text-decoration: underline;">Xem tất cả</a>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron" id="formInterface2">
-											<label for="" class="label-title-form-interface" id="rotation-game">Nút quay <span class="fa fa-angle-down"></span></label>
-											<div class="content-div-form-interface" id="content-rotation-game" style="display: none;">
+											<label for="" class="label-title-form-interface" id="rotation-game">Nút quay
+												<span class="fa fa-angle-down"></span></label>
+											<div class="content-div-form-interface" id="content-rotation-game"
+												style="display: none;">
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="rotationGame1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="rotationGame1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="rotationGame1" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="rotationGame1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="rotationGame2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="rotationGame2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="rotationGame2" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="rotationGame2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="rotationGame3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="rotationGame3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="rotationGame3" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="rotationGame3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="rotationGame4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="rotationGame4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="rotationGame4" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="rotationGame4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
-													<a href="#" style="text-decoration: underline;">Ít hơn</a>
+													<a href="#" class="load-more" style="text-decoration: underline;">Xem thêm</a>
+													<a href="#" class="hidden-items" class="hidden-items" style="text-decoration: underline;">Ít hơn</a>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron" id="formInterface3">
-											<label for="" class="label-title-form-interface" id="rim-game">Viền <span class="fa fa-angle-down"></span></label>
-											<div class="content-div-form-interface" id="content-rim-game" style="display: none;">
+											<label for="" class="label-title-form-interface" id="rim-game">Viền <span
+													class="fa fa-angle-down"></span></label>
+											<div class="content-div-form-interface" id="content-rim-game"
+												style="display: none;">
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="rimGame1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="rimGame1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="rimGame1" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="rimGame1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="rimGame2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="rimGame2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="rimGame2" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="rimGame2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="rimGame3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="rimGame3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="rimGame3" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="rimGame3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="rimGame4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="rimGame4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="rimGame4" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="rimGame4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
-													<a href="#" style="text-decoration: underline;">Ít hơn</a>
+													<a href="#" class="load-more" style="text-decoration: underline;">Xem thêm</a>
+													<a href="#" class="hidden-items" style="text-decoration: underline;">Ít hơn</a>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron" id="formInterface4">
-											<label for="" class="label-title-form-interface" id="plinth-game">Đế <span class="fa fa-angle-down"></span></label>
-											<div class="content-div-form-interface" id="content-plinth-game" style="display: none;">
+											<label for="" class="label-title-form-interface" id="plinth-game">Đế <span
+													class="fa fa-angle-down"></span></label>
+											<div class="content-div-form-interface" id="content-plinth-game"
+												style="display: none;">
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="plinthGame1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="plinthGame1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="plinthGame1" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="plinthGame1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="plinthGame2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="plinthGame2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="plinthGame2" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="plinthGame2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="plinthGame3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="plinthGame3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="plinthGame3" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="plinthGame3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="plinthGame4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="plinthGame4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="plinthGame4" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="plinthGame4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
-													<a href="#" style="text-decoration: underline;">Ít hơn</a>
+													<a href="#" class="load-more" style="text-decoration: underline;">Xem thêm</a>
+													<a href="#" class="hidden-items" style="text-decoration: underline;">Ít hơn</a>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron" id="formInterface5">
-											<label for="" class="label-title-form-interface" id="arrow-game">Kim <span class="fa fa-angle-down"></span></label>
-											<div class="content-div-form-interface" id="content-arrow-game" style="display: none;">
+											<label for="" class="label-title-form-interface" id="arrow-game">Kim <span
+													class="fa fa-angle-down"></span></label>
+											<div class="content-div-form-interface" id="content-arrow-game"
+												style="display: none;">
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="arrowGame1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="arrowGame1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="arrowGame1" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="arrowGame1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="arrowGame2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="arrowGame2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="arrowGame2" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="arrowGame2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="arrowGame3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="arrowGame3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="arrowGame3" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="arrowGame3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="arrowGame4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="arrowGame4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="arrowGame4" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="arrowGame4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
-													<a href="#" style="text-decoration: underline;">Ít hơn</a>
+													<a href="#" class="load-more" style="text-decoration: underline;">Xem thêm</a>
+													<a href="#" class="hidden-items" style="text-decoration: underline;">Ít hơn</a>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron" id="formInterface6">
-											<label for="" class="label-title-form-interface" id="gift-game">Hộp quà <span class="fa fa-angle-down"></span></label>
-											<div class="content-div-form-interface" id="content-gift-game" style="display: none;">
+											<label for="" class="label-title-form-interface" id="gift-game">Hộp quà
+												<span class="fa fa-angle-down"></span></label>
+											<div class="content-div-form-interface" id="content-gift-game"
+												style="display: none;">
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="giftGame1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="giftGame1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="giftGame1" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="giftGame1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="giftGame2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="giftGame2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="giftGame2" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="giftGame2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="giftGame3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="giftGame3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="giftGame3" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="giftGame3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="giftGame4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="giftGame4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="giftGame4" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="giftGame4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
-													<a href="#" style="text-decoration: underline;">Ít hơn</a>
+													<a href="#" class="load-more" style="text-decoration: underline;">Xem thêm</a>
+													<a href="#" class="hidden-items" style="text-decoration: underline;">Ít hơn</a>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron" id="formInterface7">
-											<label for="" class="label-title-form-interface" id="button-game">Nút <span class="fa fa-angle-down"></span></label>
-											<div class="content-div-form-interface" id="content-button-game" style="display: none;">
+											<label for="" class="label-title-form-interface" id="button-game">Nút <span
+													class="fa fa-angle-down"></span></label>
+											<div class="content-div-form-interface" id="content-button-game"
+												style="display: none;">
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="buttonGame1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="buttonGame1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="buttonGame1" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="buttonGame1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="buttonGame2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="buttonGame2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="buttonGame2" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="buttonGame2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="buttonGame3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="buttonGame3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="buttonGame3" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="buttonGame3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="buttonGame4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="buttonGame4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="buttonGame4" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="buttonGame4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
-													<a href="#" style="text-decoration: underline;">Ít hơn</a>
+													<a href="#" class="load-more" style="text-decoration: underline;">Xem thêm</a>
+													<a href="#" class="hidden-items" style="text-decoration: underline;">Ít hơn</a>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron" id="formInterface8">
-											<label for="" class="label-title-form-interface" id="popup-game">Popup <span class="fa fa-angle-down"></span></label>
-											<div class="content-div-form-interface" id="content-popup-game" style="display: none;">
+											<label for="" class="label-title-form-interface" id="popup-game">Popup <span
+													class="fa fa-angle-down"></span></label>
+											<div class="content-div-form-interface" id="content-popup-game"
+												style="display: none;">
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="popupGame1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="popupGame1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="popupGame1" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="popupGame1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="popupGame2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="popupGame2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="popupGame2" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="popupGame2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="popupGame3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="popupGame3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="popupGame3" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="popupGame3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="popupGame4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="popupGame4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="popupGame4" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="popupGame4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
-													<a href="#" style="text-decoration: underline;">Ít hơn</a>
+													<a href="#" class="load-more" style="text-decoration: underline;">Xem thêm</a>
+													<a href="#" class="hidden-items" style="text-decoration: underline;">Ít hơn</a>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron" id="formInterface9">
-											<label for="" class="label-title-form-interface" id="background-game">Background <span class="fa fa-angle-down"></span></label>
-											<div class="content-div-form-interface" id="content-background-game" style="display: none;">
+											<label for="" class="label-title-form-interface"
+												id="background-game">Background <span
+													class="fa fa-angle-down"></span></label>
+											<div class="content-div-form-interface" id="content-background-game"
+												style="display: none;">
 												<div class="row content-form-interface-full">
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="backgroundGame1" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="backgroundGame1"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="backgroundGame1" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="backgroundGame1"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="backgroundGame2" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="backgroundGame2"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="backgroundGame2" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="backgroundGame2"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="backgroundGame3" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="backgroundGame3"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="backgroundGame3" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="backgroundGame3"></label>
 														</div>
 													</div>
 													<div class="col-md-6 item-value">
 														<img src="./images/formInterfacePart.PNG" alt="">
-														<div class="btn-btn-select-radio-form custom-control custom-radio">
-															<input type="radio" id="backgroundGame4" name="customRadio" class="custom-control-input">
-															<label class="custom-control-label custom-control-description" for="backgroundGame4"></label>
+														<div
+															class="btn-btn-select-radio-form custom-control custom-radio">
+															<input type="radio" id="backgroundGame4" name="customRadio"
+																class="custom-control-input">
+															<label
+																class="custom-control-label custom-control-description"
+																for="backgroundGame4"></label>
 														</div>
 													</div>
 												</div>
 												<div style="text-align: center;">
-													<a href="#" style="text-decoration: underline;">Xem tất cả</a>
-													<a href="#" style="text-decoration: underline;">Ít hơn</a>
+													<a href="#" class="load-more" style="text-decoration: underline;">Xem thêm</a>
+													<a href="#" class="hidden-items" style="text-decoration: underline;">Ít hơn</a>
 												</div>
 											</div>
 										</div>
@@ -550,28 +722,35 @@
 											<div class="mb-4 page-iframe-custom">
 												<ul class="nav nav-tabs">
 													<li class="active">
-														<a href="#iframeMobileInFromInterface" data-toggle="tab" class="active show"><span class="fa fa-3x fa-mobile"></span> Mobile</a>
+														<a href="#iframeMobileInFromInterface" data-toggle="tab"
+															class="active show"><span class="fa fa-3x fa-mobile"></span>
+															Mobile</a>
 													</li>
-													<li><a href="#iframePcInFromInterface" data-toggle="tab"><span class="fa fa-3x fa-desktop"></span> PC</a></li>
+													<li><a href="#iframePcInFromInterface" data-toggle="tab"><span
+																class="fa fa-3x fa-desktop"></span> PC</a></li>
 												</ul>
 											</div>
 											<div class="tab-content">
 												<div class="tab-pane active" id="iframeMobileInFromInterface">
-													<iFrame src="premobile.html" width="100%" height="500px" name="the-iFrame" frameborder="0"></iFrame>
+													<iFrame src="premobile.html" width="100%" height="500px"
+														name="the-iFrame" frameborder="0"></iFrame>
 												</div>
 												<div class="tab-pane" id="iframePcInFromInterface">
-													<iFrame src="prepc.html" width="100%" height="500px" name="the-iFrame" frameborder="0"></iFrame>
+													<iFrame src="prepc.html" width="100%" height="500px"
+														name="the-iFrame" frameborder="0"></iFrame>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron custom-right">
 											<div class="mb-4 row content-text-right">
 												<div class="col-lg-8 custom-text">
-													<p>Bạn có thể tải về tất cả các hình ảnh về 1 lúc <br>Cũng có thể up toàn bộ hình với tên  và định dạng giống hình mẫu</p>
+													<p>Bạn có thể tải về tất cả các hình ảnh về 1 lúc <br>Cũng có thể up
+														toàn bộ hình với tên và định dạng giống hình mẫu</p>
 												</div>
 												<div class="col-lg-4 custom-action">
 													<ul>
-														<li><a href=""><span class="fa fa-2x fa-download"></span></a></li>
+														<li><a href=""><span class="fa fa-2x fa-download"></span></a>
+														</li>
 														<li><a href=""><span class="fa fa-2x fa-upload"></span></a></li>
 													</ul>
 												</div>
@@ -588,28 +767,37 @@
 										<nav id="column_left">
 											<ul class="nav nav-tabs nav-list level-1">
 												<li>
-													<a class="accordion-heading" data-toggle="collapse" data-target="#subcustommenu1">
-														<span class="nav-header-primary">Nội dung <span class="pull-right"><b
-																	class="caret"></b></span></span>
+													<a class="accordion-heading" data-toggle="collapse"
+														data-target="#subcustommenu1">
+														<span class="nav-header-primary">Nội dung <span
+																class="pull-right"><b class="caret"></b></span></span>
 													</a>
-						
+
 													<ul class="nav nav-list collapse level-2 show" id="subcustommenu1">
 														<li>
 															<a class="accordion-heading" data-toggle="collapse"
 																data-target="#subcustommenu2">Hình Ảnh <span
 																	class="pull-right"><b class="caret"></b></span></a>
-															<ul class="nav nav-list collapse level-3 show" id="subcustommenu2">
-																<li class="active"><a href="#customforminterface1" title="Title" data-toggle="tab">Hình đại diện</a>
+															<ul class="nav nav-list collapse level-3 show"
+																id="subcustommenu2">
+																<li class="active"><a href="#customforminterface1"
+																		title="Title" data-toggle="tab">Hình đại
+																		diện</a>
 																</li>
-																<li><a href="#customforminterface2" title="Title" data-toggle="tab">Vòng quay</a>
+																<li><a href="#customforminterface2" title="Title"
+																		data-toggle="tab">Vòng quay</a>
 																</li>
-																<li><a href="#customforminterface3" title="Title" data-toggle="tab">Giải thưởng</a>
+																<li><a href="#customforminterface3" title="Title"
+																		data-toggle="tab">Giải thưởng</a>
 																</li>
-																<li><a href="#customforminterface4" title="Title" data-toggle="tab">Chi tiết khác</a>
+																<li><a href="#customforminterface4" title="Title"
+																		data-toggle="tab">Chi tiết khác</a>
 																</li>
-																<li><a href="#customforminterface5" title="Title" data-toggle="tab">Pop up</a>
+																<li><a href="#customforminterface5" title="Title"
+																		data-toggle="tab">Pop up</a>
 																</li>
-																<li><a href="#customforminterface6" title="Title" data-toggle="tab">Background</a>
+																<li><a href="#customforminterface6" title="Title"
+																		data-toggle="tab">Background</a>
 																</li>
 															</ul>
 														</li>
@@ -617,7 +805,8 @@
 															<a href="#customforminterface7" data-toggle="tab">Text</a>
 														</li>
 														<li>
-															<a href="#customforminterface8" data-toggle="tab">Âm thanh</a>
+															<a href="#customforminterface8" data-toggle="tab">Âm
+																thanh</a>
 														</li>
 													</ul>
 												</li>
@@ -638,32 +827,42 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/Logo của bạn.png" id="img-avatar"/>
+																	<img class="image-logo"
+																		src="./images/Logo của bạn.png"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/Logo của bạn.png" download><span class="fa fa-lg fa-download"></span></a>
+																		<a href="./images/Logo của bạn.png"
+																			download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image1" class="fa fa-lg fa-upload"></label>
-																		<input id="image1" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image1"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image1" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
 														</div>
 													</div>
 												</div>
-												
+
 												<div class="jumbotron">
 													<h1 class="mb-4 title-item-config">Tên chương trình</h1>
 													<div class="content-div">
@@ -675,25 +874,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/formname.png" id="img-avatar"/>
+																	<img class="image-logo" src="./images/formname.png"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/formname.png" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/formname.png" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image2" class="fa fa-lg fa-upload"></label>
-																		<input id="image2" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image2"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image2" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -703,28 +910,39 @@
 											</div>
 											<div class="tab-pane" id="customforminterface2">
 												<div class="jumbotron">
-													<h1 class="mb-4 title-item-config" >Số lượng màu trong vòng</h1>
-													<div class="content-div-custom-game" style="padding-left: 0; padding-right: 0;">
+													<h1 class="mb-4 title-item-config">Số lượng màu trong vòng</h1>
+													<div class="content-div-custom-game"
+														style="padding-left: 0; padding-right: 0;">
 														<div class="checkbox customforminterface2">
 															<div>
 																<input type="radio" name="sort" value="1" id="sort1">
 																<label for="sort1">
-																	  <i></i>
-																	  <span>2 màu</span>
+																	<i></i>
+																	<span>2 màu</span>
 																</label>
-																<div class="two-color" style="height: 25px;width: 25px;background-color: #009E0F;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
-																<div class="two-color" style="height: 25px;width: 25px;background-color: #ffffff;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
+																<div class="two-color"
+																	style="height: 25px;width: 25px;background-color: #009E0F;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
+																<div class="two-color"
+																	style="height: 25px;width: 25px;background-color: #ffffff;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
 															</div>
-															
+
 															<div>
 																<input type="radio" name="sort" value="2" id="sort2">
 																<label for="sort2">
 																	<i></i>
 																	<span>3 màu</span>
 																</label>
-																<div class="three-color" style="height: 25px;width: 25px;background-color: #009E0F;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
-																<div class="three-color" style="height: 25px;width: 25px;background-color: #93c47d;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
-																<div class="three-color" style="height: 25px;width: 25px;background-color: #ffffff;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
+																<div class="three-color"
+																	style="height: 25px;width: 25px;background-color: #009E0F;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
+																<div class="three-color"
+																	style="height: 25px;width: 25px;background-color: #93c47d;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
+																<div class="three-color"
+																	style="height: 25px;width: 25px;background-color: #ffffff;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
 															</div>
 
 															<div>
@@ -733,10 +951,18 @@
 																	<i></i>
 																	<span>4 màu</span>
 																</label>
-																<div class="four-color" style="height: 25px;width: 25px;background-color: #009E0F;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
-																<div class="four-color" style="height: 25px;width: 25px;background-color: #6aa84f;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
-																<div class="four-color" style="height: 25px;width: 25px;background-color: #93c47d;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
-																<div class="four-color" style="height: 25px;width: 25px;background-color: #ffffff;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;"></div>
+																<div class="four-color"
+																	style="height: 25px;width: 25px;background-color: #009E0F;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
+																<div class="four-color"
+																	style="height: 25px;width: 25px;background-color: #6aa84f;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
+																<div class="four-color"
+																	style="height: 25px;width: 25px;background-color: #93c47d;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
+																<div class="four-color"
+																	style="height: 25px;width: 25px;background-color: #ffffff;display: inline-block;border: 1px solid #A1A4AA;border-radius: 5px;">
+																</div>
 															</div>
 														</div>
 													</div>
@@ -755,7 +981,7 @@
 																<!-- <input type="color" value="#ffffff" id="endtColor" name="head" value="#ffffff"> -->
 																<!-- <input type="text" value="#009E0F" class="colorPicker"> -->
 																<!-- <div class="colorPicker"></div> -->
-    															<div class="picker" id="picker2"></div>
+																<div class="picker" id="picker2"></div>
 															</li>
 														</ul>
 													</div>
@@ -771,25 +997,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/tamvong.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/tamvong.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/tamvong.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/tamvong.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image3" class="fa fa-lg fa-upload"></label>
-																		<input id="image3" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image3"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image3" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -807,25 +1041,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/minhhoa.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/minhhoa.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image4" class="fa fa-lg fa-upload"></label>
-																		<input id="image4" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image4"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image4" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -843,25 +1085,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/minhhoa.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/minhhoa.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image5" class="fa fa-lg fa-upload"></label>
-																		<input id="image5" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image5"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image5" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -879,25 +1129,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/minhhoa.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/minhhoa.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image6" class="fa fa-lg fa-upload"></label>
-																		<input id="image6" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image6"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image6" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -915,25 +1173,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/gift.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/gift.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/gift.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/gift.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image7" class="fa fa-lg fa-upload"></label>
-																		<input id="image7" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image7"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image7" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -955,25 +1221,37 @@
 																			<div id="clear-float-size-image"></div>
 																			<div class="content-image-and-button">
 																				<div class="position-relation-img">
-																					<img  class="image-logo" src="./images/button1.PNG" id="img-avatar"/>
+																					<img class="image-logo"
+																						src="./images/button1.PNG"
+																						id="img-avatar" />
 																					<div class="btn-btn-close-custom">
-																						<a href="#"><i class="fa fa-close"></i></a>
+																						<a href="#"><i
+																								class="fa fa-close"></i></a>
 																					</div>
 																					<div class="btn-btn-zoom-img">
-																						<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																						<a href="" data-toggle="modal"
+																							data-target="#exampleModalCenter"><i
+																								class="fa fa-search-plus"></i></a>
 																					</div>
 																				</div>
 																				<ul>
 																					<li>
-																						<a href="./images/button1.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																						<a href="./images/button1.PNG"
+																							download><span
+																								class="fa fa-lg fa-download"></span></a>
 																					</li>
 																					<li>
 																						<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																						<label for="image8" class="fa fa-lg fa-upload"></label>
-																						<input id="image8" class="select-image" style="visibility:hidden; display: none;" type="file">
+																						<label for="image8"
+																							class="fa fa-lg fa-upload"></label>
+																						<input id="image8"
+																							class="select-image"
+																							style="visibility:hidden; display: none;"
+																							type="file">
 																					</li>
 																					<li>
-																						<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																						<a href="#"><span
+																								class="fa fa-lg fa-undo"></span></a>
 																					</li>
 																				</ul>
 																			</div>
@@ -992,25 +1270,37 @@
 																			<div id="clear-float-size-image"></div>
 																			<div class="content-image-and-button">
 																				<div class="position-relation-img">
-																					<img class="image-logo" src="./images/button2.PNG" id="img-avatar"/>
+																					<img class="image-logo"
+																						src="./images/button2.PNG"
+																						id="img-avatar" />
 																					<div class="btn-btn-close-custom">
-																						<a href="#"><i class="fa fa-close"></i></a>
+																						<a href="#"><i
+																								class="fa fa-close"></i></a>
 																					</div>
 																					<div class="btn-btn-zoom-img">
-																						<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																						<a href="" data-toggle="modal"
+																							data-target="#exampleModalCenter"><i
+																								class="fa fa-search-plus"></i></a>
 																					</div>
 																				</div>
 																				<ul>
 																					<li>
-																						<a href="./images/button2.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																						<a href="./images/button2.PNG"
+																							download><span
+																								class="fa fa-lg fa-download"></span></a>
 																					</li>
 																					<li>
 																						<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																						<label for="image9" class="fa fa-lg fa-upload"></label>
-																						<input id="image9" class="select-image" style="visibility:hidden; display: none;" type="file">
+																						<label for="image9"
+																							class="fa fa-lg fa-upload"></label>
+																						<input id="image9"
+																							class="select-image"
+																							style="visibility:hidden; display: none;"
+																							type="file">
 																					</li>
 																					<li>
-																						<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																						<a href="#"><span
+																								class="fa fa-lg fa-undo"></span></a>
 																					</li>
 																				</ul>
 																			</div>
@@ -1020,87 +1310,111 @@
 															</div>
 														</div>
 													</div>
-													
+
 												</div>
 											</div>
 											<div class="tab-pane" id="customforminterface3">
-												<div class="jumbotron">
-													<h1 class="mb-4 title-item-config">Giải thưởng <input type="text" placeholder="Tên giải thưởng 1"></h1>
-													<div class="content-div">
-														<div class="size-image">
-															<div class="width-and-height">
-																<p class="lead">Chiều cao: 100px</p>
-																<p class="lead">Chiều rộng: 100px</p>
-															</div>
-															<div id="clear-float-size-image"></div>
-															<div class="content-image-and-button">
-																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar"/>
-																	<div class="btn-btn-close-custom">
-																		<a href="#"><i class="fa fa-close"></i></a>
-																	</div>
-																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
-																	</div>
-																</div>
-																<ul>
-																	<li>
-																		<a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
-																	</li>
-																	<li>
-																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image10" class="fa fa-lg fa-upload"></label>
-																		<input id="image10" class="select-image" style="visibility:hidden; display: none;" type="file">
-																	</li>
-																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="jumbotron">
-													<h1 class="mb-4 title-item-config">Giải thưởng <input type="text" placeholder="Tên giải thưởng 2"></h1>
-													<div class="content-div">
-														<div class="size-image">
-															<div class="width-and-height">
-																<p class="lead">Chiều cao: 100px</p>
-																<p class="lead">Chiều rộng: 100px</p>
-															</div>
-															<div id="clear-float-size-image"></div>
-															<div class="content-image-and-button">
-																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar"/>
-																	<div class="btn-btn-close-custom">
-																		<a href="#"><i class="fa fa-close"></i></a>
-																	</div>
-																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
-																	</div>
-																</div>
-																<ul>
-																	<li>
-																		<a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
-																	</li>
-																	<li>
-																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image11" class="fa fa-lg fa-upload"></label>
-																		<input id="image11" class="select-image" style="visibility:hidden; display: none;" type="file">
-																	</li>
-																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
+												<div class="add">
+                                                    <div class="jumbotron">
+                                                        <h1 class="mb-4 title-item-config">Giải thưởng <input type="text" placeholder="Tên giải thưởng"></h1>
+                                                        <div class="content-div">
+                                                            <div class="size-image">
+                                                                <div class="width-and-height">
+                                                                    <p class="lead">Chiều cao: 100px</p>
+                                                                    <p class="lead">Chiều rộng: 100px</p>
+                                                                </div>
+                                                                <div id="clear-float-size-image"></div>
+                                                                <div class="content-image-and-button">
+                                                                    <div class="position-relation-img">
+                                                                        <img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar" />
+                                                                        <div class="btn-btn-close-custom">
+                                                                            <a href="#"><i class="fa fa-close"></i></a>
+                                                                        </div>
+                                                                        <div class="btn-btn-zoom-img">
+                                                                            <a href="#" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
+                                                                            <label for="image10-1" class="fa fa-lg fa-upload"></label>
+                                                                            <input id="image10-1" class="select-image" style="visibility:hidden; display: none;" type="file">
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#"><span class="fa fa-lg fa-undo"></span></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="jumbotron">
+                                                        <h1 class="mb-4 title-item-config">Giải thưởng <input type="text" placeholder="Tên giải thưởng"></h1>
+                                                        <div class="content-div">
+                                                            <div class="size-image">
+                                                                <div class="width-and-height">
+                                                                    <p class="lead">Chiều cao: 100px</p>
+                                                                    <p class="lead">Chiều rộng: 100px</p>
+                                                                </div>
+                                                                <div id="clear-float-size-image"></div>
+                                                                <div class="content-image-and-button">
+                                                                    <div class="position-relation-img">
+                                                                        <img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar" />
+                                                                        <div class="btn-btn-close-custom">
+                                                                            <a href="#"><i class="fa fa-close"></i></a>
+                                                                        </div>
+                                                                        <div class="btn-btn-zoom-img">
+                                                                            <a href="#" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
+                                                                            <label for="image10-2" class="fa fa-lg fa-upload"></label>
+                                                                            <input id="image10-2" class="select-image" style="visibility:hidden; display: none;" type="file">
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#"><span class="fa fa-lg fa-undo"></span></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="jumbotron">
+                                                    <h1 class="mb-4 title-item-config">Thêm Giải thưởng </h1>
+                                                    <div class="content-div">
+                                                        <div class="size-image">
+                                                            <div class="width-and-height">
+                                                            </div>
+                                                            <div id="clear-float-size-image"></div>
+                                                            <div class="content-image-and-button">
+                                                                <div class="position-relation-img" style="height: 50px;">
+                                                                    <p>Thêm Giải Thưởng</p>
+                                                                    <div class="btn-btn-add-image">
+                                                                        <a href="#"><i class="fa fa-plus-circle"></i></a>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
 											</div>
 											<div class="tab-pane" id="customforminterface4">
 												<div class="jumbotron">
 													<h1 class="mb-4 title-item-config">Nút âm thanh</h1>
-													<div class="content-div content-div-custom-game" style="background: none;">
+													<div class="content-div content-div-custom-game"
+														style="background: none;">
 														<div class="checkbox customforminterface4">
 															<div>
 																<input type="radio" name="voice" value="1" id="voice1">
@@ -1112,8 +1426,8 @@
 															<div>
 																<input type="radio" name="voice" value="2" id="voice2">
 																<label for="voice2">
-																	  <i style="display: none;"></i>
-																	  <span class="fa fa-volume-up"></span>
+																	<i style="display: none;"></i>
+																	<span class="fa fa-volume-up"></span>
 																</label>
 															</div>
 														</div>
@@ -1130,25 +1444,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/minhhoa.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/minhhoa.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image12" class="fa fa-lg fa-upload"></label>
-																		<input id="image12" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image12"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image12" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1166,25 +1488,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/Shape 2.png" id="img-avatar"/>
+																	<img class="image-logo" src="./images/Shape 2.png"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/Shape 2.png" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/Shape 2.png" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image13" class="fa fa-lg fa-upload"></label>
-																		<input id="image13" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image13"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image13" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1201,25 +1531,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/Shape 3.png" id="img-avatar"/>
+																	<img class="image-logo" src="./images/Shape 3.png"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/Shape 3.png" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/Shape 3.png" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image14" class="fa fa-lg fa-upload"></label>
-																		<input id="image14" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image14"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image14" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1236,25 +1574,35 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/Vector Smart Object.png" id="img-avatar"/>
+																	<img class="image-logo"
+																		src="./images/Vector Smart Object.png"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/Vector Smart Object.png" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/Vector Smart Object.png"
+																			download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image15" class="fa fa-lg fa-upload"></label>
-																		<input id="image15" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image15"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image15" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1262,7 +1610,7 @@
 													</div>
 												</div>
 											</div>
-											
+
 											<div class="tab-pane" id="customforminterface5">
 												<div class="jumbotron">
 													<h1 class="mb-4 title-item-config">Headline chúc mừng</h1>
@@ -1275,25 +1623,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/thanks.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/thanks.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/thanks.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/thanks.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image16" class="fa fa-lg fa-upload"></label>
-																		<input id="image16" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image16"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image16" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1311,25 +1667,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/thele.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/thele.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/thele.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/thele.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image17" class="fa fa-lg fa-upload"></label>
-																		<input id="image17" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image17"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image17" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1347,25 +1711,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/Popup.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/Popup.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/Popup.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/Popup.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image17" class="fa fa-lg fa-upload"></label>
-																		<input id="image17" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image17"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image17" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1387,25 +1759,37 @@
 																			<div id="clear-float-size-image"></div>
 																			<div class="content-image-and-button">
 																				<div class="position-relation-img">
-																					<img  class="image-logo" src="./images/button1.PNG" id="img-avatar"/>
+																					<img class="image-logo"
+																						src="./images/button1.PNG"
+																						id="img-avatar" />
 																					<div class="btn-btn-close-custom">
-																						<a href="#"><i class="fa fa-close"></i></a>
+																						<a href="#"><i
+																								class="fa fa-close"></i></a>
 																					</div>
 																					<div class="btn-btn-zoom-img">
-																						<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																						<a href="" data-toggle="modal"
+																							data-target="#exampleModalCenter"><i
+																								class="fa fa-search-plus"></i></a>
 																					</div>
 																				</div>
 																				<ul>
 																					<li>
-																						<a href="./images/button1.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																						<a href="./images/button1.PNG"
+																							download><span
+																								class="fa fa-lg fa-download"></span></a>
 																					</li>
 																					<li>
 																						<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																						<label for="image18" class="fa fa-lg fa-upload"></label>
-																						<input id="image18" class="select-image" style="visibility:hidden; display: none;" type="file">
+																						<label for="image18"
+																							class="fa fa-lg fa-upload"></label>
+																						<input id="image18"
+																							class="select-image"
+																							style="visibility:hidden; display: none;"
+																							type="file">
 																					</li>
 																					<li>
-																						<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																						<a href="#"><span
+																								class="fa fa-lg fa-undo"></span></a>
 																					</li>
 																				</ul>
 																			</div>
@@ -1424,25 +1808,37 @@
 																			<div id="clear-float-size-image"></div>
 																			<div class="content-image-and-button">
 																				<div class="position-relation-img">
-																					<img class="image-logo" src="./images/button2.PNG" id="img-avatar"/>
+																					<img class="image-logo"
+																						src="./images/button2.PNG"
+																						id="img-avatar" />
 																					<div class="btn-btn-close-custom">
-																						<a href="#"><i class="fa fa-close"></i></a>
+																						<a href="#"><i
+																								class="fa fa-close"></i></a>
 																					</div>
 																					<div class="btn-btn-zoom-img">
-																						<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																						<a href="" data-toggle="modal"
+																							data-target="#exampleModalCenter"><i
+																								class="fa fa-search-plus"></i></a>
 																					</div>
 																				</div>
 																				<ul>
 																					<li>
-																						<a href="./images/button2.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																						<a href="./images/button2.PNG"
+																							download><span
+																								class="fa fa-lg fa-download"></span></a>
 																					</li>
 																					<li>
 																						<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																						<label for="image19" class="fa fa-lg fa-upload"></label>
-																						<input id="image19" class="select-image" style="visibility:hidden; display: none;" type="file">
+																						<label for="image19"
+																							class="fa fa-lg fa-upload"></label>
+																						<input id="image19"
+																							class="select-image"
+																							style="visibility:hidden; display: none;"
+																							type="file">
 																					</li>
 																					<li>
-																						<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																						<a href="#"><span
+																								class="fa fa-lg fa-undo"></span></a>
 																					</li>
 																				</ul>
 																			</div>
@@ -1452,7 +1848,7 @@
 															</div>
 														</div>
 													</div>
-													
+
 												</div>
 											</div>
 											<div class="tab-pane" id="customforminterface6">
@@ -1461,7 +1857,8 @@
 														<div class="size-image">
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
-																<input type="checkbox"> <span>Dùng 1 hình nền cho toàn bộ game</span>
+																<input type="checkbox"> <span>Dùng 1 hình nền cho toàn
+																	bộ game</span>
 															</div>
 														</div>
 													</div>
@@ -1477,25 +1874,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/Popup.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/Popup.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/Popup.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/Popup.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image20" class="fa fa-lg fa-upload"></label>
-																		<input id="image20" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image20"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image20" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1513,32 +1918,40 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/Popup.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/Popup.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/Popup.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/Popup.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image21" class="fa fa-lg fa-upload"></label>
-																		<input id="image21" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image21"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image21" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
 														</div>
 													</div>
 												</div>
-												
+
 												<div class="jumbotron">
 													<h1 class="mb-4 title-item-config">Hình nền trúng giải</h1>
 													<div class="content-div">
@@ -1550,25 +1963,33 @@
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
 																<div class="position-relation-img">
-																	<img class="image-logo" src="./images/Popup.PNG" id="img-avatar"/>
+																	<img class="image-logo" src="./images/Popup.PNG"
+																		id="img-avatar" />
 																	<div class="btn-btn-close-custom">
 																		<a href="#"><i class="fa fa-close"></i></a>
 																	</div>
 																	<div class="btn-btn-zoom-img">
-																		<a href="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+																		<a href="" data-toggle="modal"
+																			data-target="#exampleModalCenter"><i
+																				class="fa fa-search-plus"></i></a>
 																	</div>
 																</div>
 																<ul>
 																	<li>
-																		<a href="./images/Popup.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+																		<a href="./images/Popup.PNG" download><span
+																				class="fa fa-lg fa-download"></span></a>
 																	</li>
 																	<li>
 																		<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
-																		<label for="image22" class="fa fa-lg fa-upload"></label>
-																		<input id="image22" class="select-image" style="visibility:hidden; display: none;" type="file">
+																		<label for="image22"
+																			class="fa fa-lg fa-upload"></label>
+																		<input id="image22" class="select-image"
+																			style="visibility:hidden; display: none;"
+																			type="file">
 																	</li>
 																	<li>
-																		<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+																		<a href="#"><span
+																				class="fa fa-lg fa-undo"></span></a>
 																	</li>
 																</ul>
 															</div>
@@ -1579,16 +2000,24 @@
 											<div class="tab-pane" id="customforminterface7">
 												<div class="jumbotron">
 													<h1 class="mb-4 title-item-config">Loading</h1>
-													<div class="content-div content-div-custom-game" style="background: none;">
-														<input type="text" class="textEdit" value="ĐANG MANG QUÀ ĐẾN" style="width: 89%;text-align: center;font-weight: 600;">
-														<button class="saveText" style="width: 9%;padding: 0;border: none;background-color: #6fa8dc;color: white;cursor: pointer;"><i class="fa fa-pencil"></i></button>
+													<div class="content-div content-div-custom-game"
+														style="background: none;">
+														<input type="text" class="textEdit" value="ĐANG MANG QUÀ ĐẾN"
+															style="width: 89%;text-align: center;font-weight: 600;">
+														<button class="saveText"
+															style="width: 9%;padding: 0;border: none;background-color: #6fa8dc;color: white;cursor: pointer;"><i
+																class="fa fa-pencil"></i></button>
 													</div>
 												</div>
 												<div class="jumbotron">
 													<h1 class="mb-4 title-item-config">Thông báo nhận thưởng</h1>
-													<div class="content-div content-div-custom-game" style="background: none;">
-														<textarea name="" class="textEdit" id="" cols="30" rows="10" style="width: 89%;"></textarea>
-														<button class="saveText" style="width: 9%;padding: 0;border: none;background-color: #6fa8dc;color: white;float: right;cursor: pointer;"><i class="fa fa-pencil"></i></button>
+													<div class="content-div content-div-custom-game"
+														style="background: none;">
+														<textarea name="" class="textEdit" id="" cols="30" rows="10"
+															style="width: 89%;"></textarea>
+														<button class="saveText"
+															style="width: 9%;padding: 0;border: none;background-color: #6fa8dc;color: white;float: right;cursor: pointer;"><i
+																class="fa fa-pencil"></i></button>
 														<div style="clear: both;"></div>
 													</div>
 												</div>
@@ -1599,7 +2028,8 @@
 														<div class="size-image">
 															<div id="clear-float-size-image"></div>
 															<div class="content-image-and-button">
-																<input type="checkbox"> <span>Không sử dụng âm thanh trong game</span>
+																<input type="checkbox"> <span>Không sử dụng âm thanh
+																	trong game</span>
 															</div>
 														</div>
 													</div>
@@ -1607,17 +2037,24 @@
 												<div class="jumbotron">
 													<h1 class="mb-4 title-item-config">Nhạc nền</h1>
 													<div class="content-div content-div-custom-game dropdown-music">
-														<div class="content-dropdown-left">
-															<label for="" class="label-title-form-interface" id="rotation-game">Mặc định <span class="fa fa-angle-down"></span></label>
-															<div class="content-div-form-interface" id="content-rotation-game" >
+														<div class="content-dropdown-left dropdown-select-audio">
+															<label for="" class="label-title-form-interface"
+																id="rotation-game">Mặc định <span
+																	class="fa fa-angle-down"></span></label>
+															<div class="content-div-form-interface"
+																id="content-rotation-game">
 																<div class="content-form-interface-full">
 																	<div>
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 1</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 1</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1626,9 +2063,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 2</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 2</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1637,9 +2078,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 3</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 3</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1648,9 +2093,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 4</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 4</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1659,9 +2108,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 5</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 5</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1670,9 +2123,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 6</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 6</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1681,9 +2138,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 7</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 7</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1692,9 +2153,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 8</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 8</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1703,9 +2168,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 9</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 9</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1723,17 +2192,24 @@
 												<div class="jumbotron">
 													<h1 class="mb-4 title-item-config">Nhạc thông báo trúng thưởng</h1>
 													<div class="content-div content-div-custom-game dropdown-music">
-														<div class="content-dropdown-left">
-															<label for="" class="label-title-form-interface" id="rotation-game">Mặc định <span class="fa fa-angle-down"></span></label>
-															<div class="content-div-form-interface" id="content-rotation-game" >
+														<div class="content-dropdown-left dropdown-select-audio">
+															<label for="" class="label-title-form-interface"
+																id="rotation-game">Mặc định <span
+																	class="fa fa-angle-down"></span></label>
+															<div class="content-div-form-interface"
+																id="content-rotation-game">
 																<div class="content-form-interface-full">
 																	<div>
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 1</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 1</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1742,9 +2218,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 2</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 2</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1753,9 +2233,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 3</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 3</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1764,9 +2248,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 4</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 4</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1775,9 +2263,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 5</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 5</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1786,9 +2278,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 6</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 6</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1797,9 +2293,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 7</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 7</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1808,9 +2308,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 8</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 8</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1819,9 +2323,13 @@
 																		<table>
 																			<tbody>
 																				<tr>
-																					<td><label for="">Bản nhạc 9</label></td>
-																					<td><button><i class="fa fa-play"></i></button></td>
-																					<td class="text-right"><button>Chọn</button></td>
+																					<td><label for="">Bản nhạc 9</label>
+																					</td>
+																					<td><button><i
+																								class="fa fa-play"></i></button>
+																					</td>
+																					<td class="text-right">
+																						<button>Chọn</button></td>
 																				</tr>
 																			</tbody>
 																		</table>
@@ -1837,35 +2345,53 @@
 													</div>
 												</div>
 											</div>
+											<div class="container">
+												<div class="row">
+													<div class="col-md-12">
+														<div class="alert bg-info" role="alert">
+															<em class="fa fa-check-circle mr-2"></em>
+															Hãy thử kho giao diện mẫu của bạn &nbsp; &nbsp; &nbsp;
+															<a href="#" class="float-right">
+																<em class="fa fa-remove remove-recommend"></em>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
 										</div>
-
-										
 									</div>
 									<div class="col-md-12 col-lg-5 col-md-12 col-lg-5-custom custom-right">
 										<div class="jumbotron custom-right">
 											<div class="mb-4 page-iframe-custom">
 												<ul class="nav nav-tabs">
-													<li class="active"><a href="#iframeMobile" class="active show" data-toggle="tab"><span class="fa fa-3x fa-mobile"></span> Mobile</a></li>
-													<li><a href="#iframePc" data-toggle="tab"><span class="fa fa-3x fa-desktop"></span> PC</a></li>
+													<li class="active"><a href="#iframeMobile" class="active show"
+															data-toggle="tab"><span class="fa fa-3x fa-mobile"></span>
+															Mobile</a></li>
+													<li><a href="#iframePc" data-toggle="tab"><span
+																class="fa fa-3x fa-desktop"></span> PC</a></li>
 												</ul>
 											</div>
 											<div class="tab-content">
 												<div class="tab-pane active" id="iframeMobile">
-													<iFrame src="premobile.html" width="100%" height="500px" name="the-iFrame" frameborder="0"></iFrame>
+													<iFrame src="premobile.html" width="100%" height="500px"
+														name="the-iFrame" frameborder="0"></iFrame>
 												</div>
 												<div class="tab-pane" id="iframePc">
-													<iFrame src="prepc.html" width="100%" height="500px" name="the-iFrame" frameborder="0"></iFrame>
+													<iFrame src="prepc.html" width="100%" height="500px"
+														name="the-iFrame" frameborder="0"></iFrame>
 												</div>
 											</div>
 										</div>
 										<div class="jumbotron custom-right">
 											<div class="mb-4 row content-text-right">
 												<div class="col-lg-8 custom-text">
-													<p>Bạn có thể tải về tất cả các hình ảnh về 1 lúc <br>Cũng có thể up toàn bộ hình với tên  và định dạng giống hình mẫu</p>
+													<p>Bạn có thể tải về tất cả các hình ảnh về 1 lúc <br>Cũng có thể up
+														toàn bộ hình với tên và định dạng giống hình mẫu</p>
 												</div>
 												<div class="col-lg-4 custom-action">
 													<ul>
-														<li><a href=""><span class="fa fa-2x fa-download"></span></a></li>
+														<li><a href=""><span class="fa fa-2x fa-download"></span></a>
+														</li>
 														<li><a href=""><span class="fa fa-2x fa-upload"></span></a></li>
 													</ul>
 												</div>
@@ -1880,26 +2406,106 @@
 			</main>
 		</div>
 	</div>
-	
 
 
 
 
-	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-			<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img style="width: 100%;" src="" alt="">
+				</div>
 			</div>
-			<div class="modal-body">
-				<img style="width: 100%;" src="" alt="">
-			</div>
-		</div>
 		</div>
 	</div>
+
+
+<div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+    <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
+        <div class="modal-content-full-width modal-content ">
+            <div class=" modal-header-full-width   modal-header text-center">
+				<h5 class="modal-title w-100" id="exampleModalPreviewLabel">Xem trước full màn hình</h5>
+                <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+                    <span style="font-size: 1.3em;" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+				<div class="tab-content">
+					<div class="tab-pane active" id="Mobile">
+						<iFrame src="fullscreenmobile.html" style="width: 100%;height: 700px;"
+							name="the-iFrame" frameborder="0"></iFrame>
+					</div>
+					<div class="tab-pane" id="Pc">
+						<iFrame src="fullscreenpc.html" style="width: 100%;height: 700px;"
+							name="the-iFrame" frameborder="0"></iFrame>
+					</div>
+				</div>
+            </div>
+        </div>
+	</div>
+	<div class="tab-content-preview" style="position: absolute;z-index: 1;right: 0;bottom: 0;">
+		<ul class="nav nav-tabs" style="border: none;display: block;">
+			<li style="width: 100%;">
+				<a href="#Mobile" style="width: 100%;" class="active show btn btn-primary"
+					data-toggle="tab"><span class="fa fa-3x fa-mobile"></span>
+					Mobile</a></li>
+			<li style="width: 100%;">
+				<a href="#Pc" style="width: 100%;" class="btn btn-primary" data-toggle="tab">
+					<span class="fa fa-3x fa-desktop"></span>PC</a></li>
+		</ul>
+	</div>
+</div>
+	
+<template class="add-content-gift">
+	<div class="jumbotron">
+		<h1 class="mb-4 title-item-config">Giải thưởng <input type="text" placeholder="Tên giải thưởng"></h1>
+		<div class="content-div">
+			<div class="size-image">
+				<div class="width-and-height">
+					<p class="lead">Chiều cao: 100px</p>
+					<p class="lead">Chiều rộng: 100px</p>
+				</div>
+				<div id="clear-float-size-image"></div>
+				<div class="content-image-and-button">
+					<div class="position-relation-img">
+						<img class="image-logo" src="./images/minhhoa.PNG" id="img-avatar" />
+						<div class="btn-btn-close-custom">
+							<a href="#"><i class="fa fa-close"></i></a>
+						</div>
+						<div class="btn-btn-zoom-img">
+							<a href="#" data-toggle="modal"
+							data-target="#exampleModalCenter"><i class="fa fa-search-plus"></i></a>
+						</div>
+					</div>
+					<ul>
+						<li>
+							<a href="./images/minhhoa.PNG" download><span class="fa fa-lg fa-download" ></span></a>
+						</li>
+						<li>
+							<!-- <a href="#" type="file"><span class="fa fa-lg fa-upload"></span></a> -->
+							<label for="image10-" class="fa fa-lg fa-upload"></label>
+							<input id="image10-" class="select-image" style="visibility:hidden; display: none;" type="file">
+						</li>
+						<li>
+							<a href="#"><span class="fa fa-lg fa-undo"></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+      </div>
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
@@ -1910,8 +2516,9 @@
 	<script src="dist/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css">
 	<script src="js/colorPick.js"></script>
-</body>
+	</body>
 
 </html>
